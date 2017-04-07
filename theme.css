@@ -9,11 +9,16 @@ body {
 	background-attachment: fixed;
 	background-position: center center;
 }
+h3 {
+	letter-spacing: 0.2em;
+}
 .heading {
 	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
 	vertical-align: center;
 	border-bottom-style: solid;
-	padding: 5%
+	padding: 5%;
 }
 .personality-profile {
 	padding: 5%;
@@ -22,7 +27,9 @@ body {
 	padding: 5%;
 }
 footer {
-	padding: 5%;
+	font-size: 2.5em;
+	letter-spacing: 0.2em;
+	padding: 1em;
 	text-align: center;
 	vertical-align: middle;
 }
