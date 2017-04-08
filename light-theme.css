@@ -1,15 +1,16 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
 }
 body {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('background.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('light_background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
 }
 h3 {
+	font-size: 1.5em;
 	letter-spacing: 0.2em;
 }
 .heading {
@@ -20,7 +21,12 @@ h3 {
 	border-bottom-style: solid;
 	padding: 5%;
 }
-.text-area {
+.personality-profile {
+	font-weight: 600;
+	padding: 5%;
+}
+.programming-accomplishments {
+	font-weight: 600;
 	padding: 5%;
 }
 footer {
