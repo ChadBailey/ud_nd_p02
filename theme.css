@@ -11,26 +11,22 @@ body {
 	background-position: center center;
 }
 
-h3 {
+.spaced-out {
 	letter-spacing: 0.2em;
+}
+.text-padding {
+	padding: 5%;
 }
 
 .heading {
 	text-align: center;
 	font-size: 1.5em;
-	letter-spacing: 0.2em;
 	vertical-align: center;
 	border-bottom-style: solid;
-	padding: 5%;
-}
-
-.text-area {
-	padding: 5%;
 }
 
 footer {
 	font-size: 2.5em;
-	letter-spacing: 0.2em;
 	padding: 1em;
 	text-align: center;
 	vertical-align: middle;
