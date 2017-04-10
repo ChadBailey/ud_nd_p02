@@ -11,18 +11,27 @@ body {
 	background-position: center center;
 }
 
-.spaced-out {
-	letter-spacing: 0.2em;
-}
-.text-padding {
-	padding: 5%;
-}
-
 .heading {
 	text-align: center;
 	font-size: 1.5em;
 	vertical-align: center;
 	border-bottom-style: solid;
+	padding: 5%;
+	letter-spacing: 0.2em;
+}
+
+.category {
+	font-size: 1.2em;
+	font-weight:600;
+	letter-spacing: 0.2em;
+}
+
+.subcategory {
+	font-weight:600;
+}
+
+.list {
+	padding: 2% 5%;
 }
 
 footer {
